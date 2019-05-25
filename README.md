@@ -28,6 +28,6 @@ The [oss.newmediaworks.com](https://oss.newmediaworks.com/) website.
 ## Contact Us
 For questions or support, please [contact us](https://www.newmediaworks.com/html/contact.html):
 
-Email: [oss@newmediaworks.com](mailto:oss@newmediaworks.com)  
+Email: [info@newmediaworks.com](mailto:info@newmediaworks.com)  
 Phone: [+1-707-252-7700](tel:+1-707-252-7700)  
 Web: https://www.newmediaworks.com/html/contact.html
