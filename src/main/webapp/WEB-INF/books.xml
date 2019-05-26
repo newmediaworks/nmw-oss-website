@@ -28,10 +28,13 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 	rootBook="/"
 >
 	<book name="/" cvsworkDirectory="~/maven2/nmw/oss/book/src/main/resources-filtered/META-INF/resources" />
+	<book name="/parent" cvsworkDirectory="~/maven2/nmw/oss/parent/book/src/main/resources-filtered/META-INF/resources/parent">
+		<parent book="/" page="/index.jspx" />
+	</book>
 	<book name="/email-taglib" cvsworkDirectory="~/maven2/nmw/oss/email-taglib/book/src/main/resources-filtered/META-INF/resources/email-taglib">
 		<parent book="/" page="/index.jspx" />
 	</book>
-	<book name="/parent" cvsworkDirectory="~/maven2/nmw/oss/parent/book/src/main/resources-filtered/META-INF/resources/parent">
+	<book name="/payment-taglib" cvsworkDirectory="~/maven2/nmw/oss/payment-taglib/book/src/main/resources-filtered/META-INF/resources/payment-taglib">
 		<parent book="/" page="/index.jspx" />
 	</book>
 </books>
