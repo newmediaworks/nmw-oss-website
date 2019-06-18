@@ -121,8 +121,7 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 								<server>oss.newmediaworks.com</server>
 								<path>/</path>
 								<update>true</update>
-								<!-- TODO: URL to ~/.m2/settings.xml, too? -->
-								<url>https://oss.newmediaworks.com/sck2Fhmz8LRheLL7ZYP3Hc/text</url>
+								<url>${tomcat7-maven-plugin-oss.newmediaworks.com}</url>
 							</configuration>
 						</plugin>
 					</plugins>
