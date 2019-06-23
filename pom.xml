@@ -133,7 +133,7 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 					<!-- Only include Google Analytics on production releases to not pollute with dev data -->
 					<!-- TODO: Once have Google Analytics tracking id:
 					<dependency>
-						<groupId>com.semanticcms</groupId><artifactId>semanticcms-google-analytics</artifactId><version>1.0.3-SNAPSHOT</version>
+						<groupId>com.semanticcms</groupId><artifactId>semanticcms-google-analytics</artifactId><version>1.0.3-validation-SNAPSHOT</version>
 					</dependency>
 					-->
 				</dependencies>
