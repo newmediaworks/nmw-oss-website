@@ -28,16 +28,14 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
   version="3.0"
   metadata-complete="false">
 	<display-name>oss.newmediaworks.com</display-name>
-	<!-- TODO: Once have Google Analytics tracking id:
 	<context-param>
 		<description>
 			The Google Analytics tracking ID for this site.
 			If not provided or empty, the tracking script is not added.
 		</description>
 		<param-name>com.semanticcms.googleanalytics.GoogleAnalytics.trackingId</param-name>
-		<param-value>TODO</param-value>
+		<param-value>UA-177004-2</param-value>
 	</context-param>
-	-->
 	<context-param>
 		<description>
 			When set to "true" and the request is from localhost, enables desktop

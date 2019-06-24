@@ -35,9 +35,7 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 	<properties>
 		<javadoc.breadcrumbs><![CDATA[<a target="_top" href="https://oss.newmediaworks.com/">NMW OSS</a>]]></javadoc.breadcrumbs>
 		<shortTitle />
-		<!-- TODO:
-		<google.analytics.trackingId>TODO</google.analytics.trackingId>
-		-->
+		<google.analytics.trackingId>UA-177004-2</google.analytics.trackingId>
 	</properties>
 
 	<name>NMW OSS Website</name>
@@ -131,21 +129,17 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 			<dependencyManagement>
 				<dependencies>
 					<!-- Only include Google Analytics on production releases to not pollute with dev data -->
-					<!-- TODO: Once have Google Analytics tracking id:
 					<dependency>
 						<groupId>com.semanticcms</groupId><artifactId>semanticcms-google-analytics</artifactId><version>1.0.3-POST-SNAPSHOT</version>
 					</dependency>
-					-->
 				</dependencies>
 			</dependencyManagement>
 
 			<dependencies>
 				<!-- Only include Google Analytics on production releases to not pollute with dev data -->
-				<!-- TODO: Once have Google Analytics tracking id:
 				<dependency>
 					<groupId>com.semanticcms</groupId><artifactId>semanticcms-google-analytics</artifactId>
 				</dependency>
-				-->
 				<!-- Dependencies for javadocs -->
 				<dependency>
 					<groupId>com.newmediaworks</groupId><artifactId>nmw-email-taglib</artifactId><version>1.0.0-SNAPSHOT</version>
