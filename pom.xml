@@ -38,7 +38,7 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 		<google.analytics.trackingId>UA-177004-2</google.analytics.trackingId>
 	</properties>
 
-	<name>NMW OSS Website</name>
+	<name>oss.newmediaworks.com</name>
 	<url>https://oss.newmediaworks.com/</url>
 	<description>The oss.newmediaworks.com website.</description>
 	<inceptionYear>2019</inceptionYear>
