@@ -29,7 +29,7 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.newmediaworks</groupId><artifactId>nmw-oss-website</artifactId><version>1.0.0-POST-SNAPSHOT</version>
+	<groupId>com.newmediaworks</groupId><artifactId>nmw-oss-website</artifactId><version>1.1.0-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<properties>
@@ -57,7 +57,7 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 			<dependencyManagement>
 				<dependencies>
 					<dependency>
-						<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-bom</artifactId><version>1.3.1-POST-SNAPSHOT</version>
+						<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-bom</artifactId><version>1.4.0-SNAPSHOT</version>
 						<type>pom</type>
 						<scope>import</scope>
 					</dependency>
@@ -166,7 +166,7 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 			<!-- Direct -->
 			<!-- Note: All non-bom transitive dependencies are listed - so only bom imports -->
 			<dependency>
-				<groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation</artifactId><version>1.7.0-POST-SNAPSHOT</version>
+				<groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation</artifactId><version>1.8.0-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation-style</artifactId><version>1.7.0-POST-SNAPSHOT</version>
@@ -179,10 +179,10 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 				<groupId>com.aoindustries</groupId><artifactId>ao-concurrent</artifactId><version>1.1.2-POST-SNAPSHOT</version>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-encoding</artifactId><version>1.8.0-POST-SNAPSHOT</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-encoding</artifactId><version>2.0.0-SNAPSHOT</version>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-encoding-servlet</artifactId><version>1.4.0-SNAPSHOT</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-encoding-servlet</artifactId><version>2.0.0-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>com.aoindustries</groupId><artifactId>ao-io-buffer</artifactId><version>3.0.1-POST-SNAPSHOT</version>
@@ -191,13 +191,13 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 				<groupId>com.aoindustries</groupId><artifactId>ao-lang</artifactId><version>3.0.0-POST-SNAPSHOT</version>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-net-types</artifactId><version>1.1.2-POST-SNAPSHOT</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-net-types</artifactId><version>1.2.0-SNAPSHOT</version>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-servlet-filter</artifactId><version>1.7.0-SNAPSHOT</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-servlet-filter</artifactId><version>2.0.0-SNAPSHOT</version>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-taglib</artifactId><version>3.1.0-SNAPSHOT</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-taglib</artifactId><version>4.0.0-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>com.aoindustries</groupId><artifactId>ao-tempfiles</artifactId><version>1.0.1-POST-SNAPSHOT</version>
@@ -209,10 +209,10 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 				<groupId>com.aoindustries</groupId><artifactId>ao-tld-parser</artifactId><version>1.0.0-POST-SNAPSHOT</version>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-tlds</artifactId><version>1.1.1-POST-SNAPSHOT</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-tlds</artifactId><version>1.1.2-SNAPSHOT</version>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>aocode-public</artifactId><version>3.0.1-SNAPSHOT</version>
+				<groupId>com.aoindustries</groupId><artifactId>aocode-public</artifactId><version>3.1.0-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.commons</groupId><artifactId>commons-lang3</artifactId><version>3.9</version>
