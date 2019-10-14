@@ -31,6 +31,9 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 	<book name="/parent" cvsworkDirectory="~/maven2/nmw/oss/parent/book/src/main/resources-filtered/META-INF/resources/parent">
 		<parent book="/" page="/index.jspx" />
 	</book>
+	<book name="/javadoc-resources" cvsworkDirectory="~/maven2/nmw/oss/javadoc-resources/book/src/main/resources-filtered/META-INF/resources/javadoc-resources">
+		<parent book="/" page="/index.jspx" />
+	</book>
 	<book name="/email-taglib" cvsworkDirectory="~/maven2/nmw/oss/email-taglib/book/src/main/resources-filtered/META-INF/resources/email-taglib">
 		<parent book="/" page="/index.jspx" />
 	</book>
