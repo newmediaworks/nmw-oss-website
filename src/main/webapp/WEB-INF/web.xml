@@ -35,7 +35,7 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 			If not provided or empty, the tracking script is not added.
 		</description>
 		<param-name>com.semanticcms.googleanalytics.GoogleAnalytics.trackingId</param-name>
-		<param-value>UA-177004-2</param-value>
+		<param-value>@{com.semanticcms.googleanalytics.GoogleAnalytics.trackingId}</param-value>
 	</context-param>
 	<context-param>
 		<description>
@@ -43,6 +43,7 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 			integration mode by opening files on the server side instead of
 			downloading through the browser.
 		</description>
+		<!-- TODO: Set by profile -->
 		<param-name>com.semanticcms.openfile.servlet.OpenFile.enabled</param-name>
 		<param-value>true</param-value>
 	</context-param>
