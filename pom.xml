@@ -29,7 +29,7 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.newmediaworks</groupId><artifactId>nmw-oss-website</artifactId><version>1.2.0-POST-SNAPSHOT</version>
+	<groupId>com.newmediaworks</groupId><artifactId>nmw-oss-website</artifactId><version>1.2.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<properties>
@@ -134,7 +134,7 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 			<dependencies>
 				<!-- Dependencies for javadocs -->
 				<dependency>
-					<groupId>com.newmediaworks</groupId><artifactId>nmw-email-taglib</artifactId><version>1.0.1-POST-SNAPSHOT</version>
+					<groupId>com.newmediaworks</groupId><artifactId>nmw-email-taglib</artifactId><version>1.0.2-SNAPSHOT</version>
 					<classifier>javadoc</classifier>
 					<scope>provided</scope>
 				</dependency>
@@ -177,7 +177,7 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 				<groupId>com.aoindustries</groupId><artifactId>ao-encoding</artifactId><version>2.2.0-SNAPSHOT</version>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-encoding-servlet</artifactId><version>2.0.0-POST-SNAPSHOT</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-encoding-servlet</artifactId><version>3.0.0-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>com.aoindustries</groupId><artifactId>ao-io-buffer</artifactId><version>3.2.0-SNAPSHOT</version>
@@ -306,7 +306,7 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 		</dependency>
 		<!-- Books -->
 		<dependency>
-			<groupId>com.newmediaworks</groupId><artifactId>nmw-oss-book</artifactId><version>1.1.0-POST-SNAPSHOT</version>
+			<groupId>com.newmediaworks</groupId><artifactId>nmw-oss-book</artifactId><version>1.1.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.newmediaworks</groupId><artifactId>nmw-oss-parent-book</artifactId><version>1.4.0-POST-SNAPSHOT</version>
@@ -315,7 +315,7 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 			<groupId>com.newmediaworks</groupId><artifactId>nmw-javadoc-resources-book</artifactId><version>1.0.0-POST-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>com.newmediaworks</groupId><artifactId>nmw-email-taglib-book</artifactId><version>1.0.1-POST-SNAPSHOT</version>
+			<groupId>com.newmediaworks</groupId><artifactId>nmw-email-taglib-book</artifactId><version>1.0.2-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.newmediaworks</groupId><artifactId>nmw-payment-taglib-book</artifactId><version>1.0.0-POST-SNAPSHOT</version>
