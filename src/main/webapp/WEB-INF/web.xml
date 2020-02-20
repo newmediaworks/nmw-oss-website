@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 nmw-oss-website - The oss.newmediaworks.com website.
-Copyright (C) 2019  New Media Works
+Copyright (C) 2019, 2020  New Media Works
     info@newmediaworks.com
     703 2nd Street #465
     Santa Rosa, CA 95404
@@ -59,7 +59,7 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 
 	<!-- Perform final URI/IRI encoding -->
 	<filter>
-		<filter-name>EncodeURIFilter</filter-name>
+		<filter-name>com.aoindustries.servlet.filter.EncodeURIFilter</filter-name>
 		<filter-class>com.aoindustries.servlet.filter.EncodeURIFilter</filter-class>
 		<description>
 			Encodes the URL to either RFC 3986 URI US-ASCII format or RFC 3987
@@ -77,7 +77,7 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 		</init-param>
 	</filter>
 	<filter-mapping>
-		<filter-name>EncodeURIFilter</filter-name>
+		<filter-name>com.aoindustries.servlet.filter.EncodeURIFilter</filter-name>
 		<url-pattern>/*</url-pattern>
 		<dispatcher>REQUEST</dispatcher>
 		<dispatcher>ERROR</dispatcher>
@@ -85,7 +85,7 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 
 	<!-- Prevents any sessions from being created -->
 	<filter>
-		<filter-name>NoSessionFilter</filter-name>
+		<filter-name>com.aoindustries.servlet.filter.NoSessionFilter</filter-name>
 		<filter-class>com.aoindustries.servlet.filter.NoSessionFilter</filter-class>
 		<init-param>
 			<param-name>cookieUrlParamPrefix</param-name>
@@ -99,7 +99,7 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 		-->
 	</filter>
 	<filter-mapping>
-		<filter-name>NoSessionFilter</filter-name>
+		<filter-name>com.aoindustries.servlet.filter.NoSessionFilter</filter-name>
 		<url-pattern>/*</url-pattern>
 		<dispatcher>REQUEST</dispatcher>
 		<dispatcher>ERROR</dispatcher>
