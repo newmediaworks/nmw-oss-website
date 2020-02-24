@@ -36,7 +36,6 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 		<javadoc.breadcrumbs><![CDATA[<a target="_top" href="https://oss.newmediaworks.com/">NMW OSS</a>]]></javadoc.breadcrumbs>
 		<shortTitle />
 		<google.analytics.trackingId>UA-177004-2</google.analytics.trackingId>
-		<com.semanticcms.googleanalytics.GoogleAnalytics.trackingId>${google.analytics.trackingId}</com.semanticcms.googleanalytics.GoogleAnalytics.trackingId>
 	</properties>
 
 	<name>oss.newmediaworks.com</name>
@@ -82,10 +81,6 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 		<!-- Features only enabled during development time -->
 		<profile>
 			<id>development</id>
-			<properties>
-				<!-- Only include Google Analytics on production releases to not pollute with dev data -->
-				<com.semanticcms.googleanalytics.GoogleAnalytics.trackingId></com.semanticcms.googleanalytics.GoogleAnalytics.trackingId>
-			</properties>
 			<dependencyManagement>
 				<dependencies>
 					<dependency>
