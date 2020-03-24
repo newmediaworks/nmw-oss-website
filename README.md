@@ -22,7 +22,7 @@ The [oss.newmediaworks.com](https://oss.newmediaworks.com/) website.
 
 ## Project Links
 * [Project Home](https://oss.newmediaworks.com/)
-* [Maven Central Repository](https://search.maven.org/#search%7Cgav%7C1%7Cg:%22com.newmediaworks%22%20AND%20a:%22nmw-oss-website%22)
+* [Maven Central Repository](https://search.maven.org/artifact/com.newmediaworks/nmw-oss-website)
 * [GitHub](https://github.com/newmediaworks/nmw-oss-website)
 
 ## Contact Us
