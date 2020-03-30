@@ -312,7 +312,7 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 		</dependency>
 		<!-- Books -->
 		<dependency>
-			<groupId>com.newmediaworks</groupId><artifactId>nmw-oss-book</artifactId><version>1.1.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+			<groupId>com.newmediaworks</groupId><artifactId>nmw-oss-book</artifactId><version>1.1.1${POST-SNAPSHOT}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.newmediaworks</groupId><artifactId>nmw-oss-parent-book</artifactId><version>1.5.1${POST-SNAPSHOT}</version>
