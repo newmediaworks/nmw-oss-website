@@ -145,7 +145,7 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 			<dependencies>
 				<!-- Dependencies for javadocs -->
 				<dependency>
-					<groupId>com.newmediaworks</groupId><artifactId>nmw-email-taglib</artifactId><version>1.0.2-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+					<groupId>com.newmediaworks</groupId><artifactId>nmw-email-taglib</artifactId><version>1.0.2${POST-SNAPSHOT}</version>
 					<classifier>javadoc</classifier>
 					<scope>provided</scope>
 				</dependency>
@@ -321,7 +321,7 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 			<groupId>com.newmediaworks</groupId><artifactId>nmw-javadoc-resources-book</artifactId><version>1.0.1${POST-SNAPSHOT}</version>
 		</dependency>
 		<dependency>
-			<groupId>com.newmediaworks</groupId><artifactId>nmw-email-taglib-book</artifactId><version>1.0.2-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+			<groupId>com.newmediaworks</groupId><artifactId>nmw-email-taglib-book</artifactId><version>1.0.2${POST-SNAPSHOT}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.newmediaworks</groupId><artifactId>nmw-payment-taglib-book</artifactId><version>1.0.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
