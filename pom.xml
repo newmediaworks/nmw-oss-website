@@ -84,39 +84,37 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 		<profile>
 			<id>release</id>
 			<build>
-				<pluginManagement>
-					<plugins>
-						<plugin>
-							<groupId>org.apache.maven.plugins</groupId><artifactId>maven-war-plugin</artifactId><version>3.2.3</version>
-							<configuration>
-								<overlays>
-									<overlay>
-										<groupId>com.newmediaworks</groupId><artifactId>nmw-email-taglib</artifactId>
-										<type>jar</type>
-										<classifier>javadoc</classifier>
-										<targetPath>email-taglib/apidocs</targetPath>
-									</overlay>
-									<overlay>
-										<groupId>com.newmediaworks</groupId><artifactId>nmw-payment-taglib</artifactId>
-										<type>jar</type>
-										<classifier>javadoc</classifier>
-										<targetPath>payment-taglib/apidocs</targetPath>
-									</overlay>
-								</overlays>
-							</configuration>
-						</plugin>
-						<plugin>
-							<groupId>org.apache.tomcat.maven</groupId><artifactId>tomcat7-maven-plugin</artifactId><version>2.2</version>
-							<configuration>
-								<charset>UTF-8</charset>
-								<server>oss.newmediaworks.com</server>
-								<path>/</path>
-								<update>true</update>
-								<url>${tomcat7-maven-plugin-oss.newmediaworks.com}</url>
-							</configuration>
-						</plugin>
-					</plugins>
-				</pluginManagement>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId><artifactId>maven-war-plugin</artifactId>
+						<configuration>
+							<overlays>
+								<overlay>
+									<groupId>com.newmediaworks</groupId><artifactId>nmw-email-taglib</artifactId>
+									<type>jar</type>
+									<classifier>javadoc</classifier>
+									<targetPath>email-taglib/apidocs</targetPath>
+								</overlay>
+								<overlay>
+									<groupId>com.newmediaworks</groupId><artifactId>nmw-payment-taglib</artifactId>
+									<type>jar</type>
+									<classifier>javadoc</classifier>
+									<targetPath>payment-taglib/apidocs</targetPath>
+								</overlay>
+							</overlays>
+						</configuration>
+					</plugin>
+					<plugin>
+						<groupId>org.apache.tomcat.maven</groupId><artifactId>tomcat7-maven-plugin</artifactId>
+						<configuration>
+							<charset>UTF-8</charset>
+							<server>oss.newmediaworks.com</server>
+							<path>/</path>
+							<update>true</update>
+							<url>${tomcat7-maven-plugin-oss.newmediaworks.com}</url>
+						</configuration>
+					</plugin>
+				</plugins>
 			</build>
 
 			<dependencies>
