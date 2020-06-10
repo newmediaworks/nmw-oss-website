@@ -36,8 +36,6 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 		<javadoc.breadcrumbs><![CDATA[<a target="${javadoc.target}" href="https://oss.newmediaworks.com/">NMW OSS</a>]]></javadoc.breadcrumbs>
 		<shortTitle />
 		<google.analytics.trackingId>UA-177004-2</google.analytics.trackingId>
-		<!-- Dependencies -->
-		<commons-lang3.version>3.10</commons-lang3.version>
 	</properties>
 
 	<name>oss.newmediaworks.com</name>
@@ -255,7 +253,7 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 				<groupId>com.aoindustries</groupId><artifactId>aocode-public</artifactId><version>4.1.0${POST-SNAPSHOT}</version>
 			</dependency>
 			<dependency>
-				<groupId>org.apache.commons</groupId><artifactId>commons-lang3</artifactId><version>${commons-lang3.version}</version>
+				<groupId>org.apache.commons</groupId><artifactId>commons-lang3</artifactId><version>3.10</version>
 			</dependency>
 			<dependency>
 				<groupId>org.webjars</groupId><artifactId>d3js</artifactId><version>5.16.0</version>
