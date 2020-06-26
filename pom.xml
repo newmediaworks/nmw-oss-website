@@ -35,7 +35,6 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 	<properties>
 		<javadoc.breadcrumbs><![CDATA[<a target="${javadoc.target}" href="https://oss.newmediaworks.com/">NMW OSS</a>]]></javadoc.breadcrumbs>
 		<shortTitle />
-		<google.analytics.trackingId>UA-177004-2</google.analytics.trackingId>
 	</properties>
 
 	<name>oss.newmediaworks.com</name>
