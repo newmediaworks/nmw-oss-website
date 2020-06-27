@@ -121,7 +121,7 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 						<groupId>org.apache.tomcat.maven</groupId><artifactId>tomcat7-maven-plugin</artifactId>
 						<configuration>
 							<charset>UTF-8</charset>
-							<server>oss.newmediaworks.com</server>
+							<server>tomcat7-maven-plugin-oss.newmediaworks.com</server>
 							<path>/</path>
 							<update>true</update>
 							<url>${tomcat7-maven-plugin-oss.newmediaworks.com}</url>
