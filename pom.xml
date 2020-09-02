@@ -25,11 +25,11 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.newmediaworks</groupId><artifactId>nmw-oss-parent</artifactId><version>1.9.0-POST-SNAPSHOT</version>
+		<groupId>com.newmediaworks</groupId><artifactId>nmw-oss-parent</artifactId><version>1.10.0-SNAPSHOT</version>
 		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.newmediaworks</groupId><artifactId>nmw-oss-website</artifactId><version>1.6.0-POST-SNAPSHOT</version>
+	<groupId>com.newmediaworks</groupId><artifactId>nmw-oss-website</artifactId><version>1.7.0-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<properties>
@@ -205,10 +205,10 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 				<groupId>com.newmediaworks</groupId><artifactId>nmw-javadoc-resources-book</artifactId><version>1.0.1${POST-SNAPSHOT}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.newmediaworks</groupId><artifactId>nmw-oss-book</artifactId><version>1.5.0${POST-SNAPSHOT}</version>
+				<groupId>com.newmediaworks</groupId><artifactId>nmw-oss-book</artifactId><version>1.6.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<dependency>
-				<groupId>com.newmediaworks</groupId><artifactId>nmw-oss-parent-book</artifactId><version>1.9.0${POST-SNAPSHOT}</version>
+				<groupId>com.newmediaworks</groupId><artifactId>nmw-oss-parent-book</artifactId><version>1.10.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<dependency>
 				<groupId>com.newmediaworks</groupId><artifactId>nmw-payment-taglib-book</artifactId><version>1.0.1${POST-SNAPSHOT}</version>
