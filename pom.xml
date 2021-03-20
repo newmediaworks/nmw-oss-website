@@ -25,7 +25,7 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.newmediaworks</groupId><artifactId>nmw-oss-parent</artifactId><version>1.12.0-POST-SNAPSHOT</version>
+		<groupId>com.newmediaworks</groupId><artifactId>nmw-oss-parent</artifactId><version>1.12.1-POST-SNAPSHOT</version>
 		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
 
@@ -271,14 +271,14 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 				<groupId>com.newmediaworks</groupId><artifactId>nmw-oss-book</artifactId><version>1.7.0${POST-SNAPSHOT}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.newmediaworks</groupId><artifactId>nmw-oss-parent-book</artifactId><version>1.12.0${POST-SNAPSHOT}</version>
+				<groupId>com.newmediaworks</groupId><artifactId>nmw-oss-parent-book</artifactId><version>1.12.1${POST-SNAPSHOT}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.newmediaworks</groupId><artifactId>nmw-payment-taglib-book</artifactId><version>2.0.0${POST-SNAPSHOT}</version>
 			</dependency>
 			<!-- Transitive -->
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-badges</artifactId><version>1.5.0${POST-SNAPSHOT}</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-badges</artifactId><version>1.5.1${POST-SNAPSHOT}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.aoindustries</groupId><artifactId>ao-collections</artifactId><version>1.2.0${POST-SNAPSHOT}</version>
@@ -387,7 +387,7 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 				<groupId>com.semanticcms</groupId><artifactId>semanticcms-section-taglib</artifactId><version>1.8.1${POST-SNAPSHOT}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.semanticcms</groupId><artifactId>semanticcms-tag-reference</artifactId><version>1.6.0${POST-SNAPSHOT}</version>
+				<groupId>com.semanticcms</groupId><artifactId>semanticcms-tag-reference</artifactId><version>1.6.1${POST-SNAPSHOT}</version>
 			</dependency>
 			<!-- Runtime Direct -->
 			<dependency>
@@ -407,7 +407,7 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 				<groupId>com.aoindustries</groupId><artifactId>ao-fluent-html-util</artifactId><version>0.4.0${POST-SNAPSHOT}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-javadoc-offline</artifactId><version>2.0.0${POST-SNAPSHOT}</version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-javadoc-offline</artifactId><version>2.0.1${POST-SNAPSHOT}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.aoindustries</groupId><artifactId>ao-web-resources-renderer</artifactId><version>0.3.0${POST-SNAPSHOT}</version>
