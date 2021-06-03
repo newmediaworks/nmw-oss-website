@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 nmw-oss-website - The oss.newmediaworks.com website.
-Copyright (C) 2019, 2020  New Media Works
+Copyright (C) 2019, 2020, 2021  New Media Works
     info@newmediaworks.com
     703 2nd Street #465
     Santa Rosa, CA 95404
@@ -29,15 +29,15 @@ along with nmw-oss-website.  If not, see <http://www.gnu.org/licenses />.
 >
 	<book name="/" cvsworkDirectory="~/maven2/nmw/oss/book/src/main/resources-filtered/META-INF/resources" />
 	<book name="/parent" cvsworkDirectory="~/maven2/nmw/oss/parent/book/src/main/resources-filtered/META-INF/resources/parent">
-		<parent book="/" page="/index.jspx" />
+		<parent book="/" page="/index.jspx" shortTitle="Parent" />
 	</book>
 	<book name="/javadoc-resources" cvsworkDirectory="~/maven2/nmw/oss/javadoc-resources/book/src/main/resources-filtered/META-INF/resources/javadoc-resources">
-		<parent book="/" page="/index.jspx" />
+		<parent book="/" page="/index.jspx" shortTitle="Javadoc Resources" />
 	</book>
 	<book name="/email-taglib" cvsworkDirectory="~/maven2/nmw/oss/email-taglib/book/src/main/resources-filtered/META-INF/resources/email-taglib">
-		<parent book="/" page="/index.jspx" />
+		<parent book="/" page="/index.jspx" shortTitle="Email Taglib" />
 	</book>
 	<book name="/payment-taglib" cvsworkDirectory="~/maven2/nmw/oss/payment-taglib/book/src/main/resources-filtered/META-INF/resources/payment-taglib">
-		<parent book="/" page="/index.jspx" />
+		<parent book="/" page="/index.jspx" shortTitle="Payment Taglib" />
 	</book>
 </books>
