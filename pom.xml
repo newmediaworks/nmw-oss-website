@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 nmw-oss-website - The oss.newmediaworks.com website.
-Copyright (C) 2019, 2020, 2021  New Media Works
+Copyright (C) 2019, 2020, 2021, 2022  New Media Works
     info@newmediaworks.com
     703 2nd Street #465
     Santa Rosa, CA 95404
@@ -467,7 +467,7 @@ along with nmw-oss-website.  If not, see <https://www.gnu.org/licenses/>.
 				<groupId>com.aoapps</groupId><artifactId>ao-web-resources-taglib</artifactId><version>0.4.0${POST-SNAPSHOT}</version>
 			</dependency>
 			<dependency>
-				<groupId>org.webjars.npm</groupId><artifactId>d3</artifactId><version>7.2.1</version>
+				<groupId>org.webjars.npm</groupId><artifactId>d3</artifactId><version>7.3.0</version>
 			</dependency>
 			<dependency>
 				<groupId>org.webjars.npm</groupId><artifactId>dagre</artifactId><version>0.8.5</version>
