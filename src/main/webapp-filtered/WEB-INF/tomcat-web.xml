@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 nmw-oss-website - The oss.newmediaworks.com website.
-Copyright (C) 2020, 2021  New Media Works
+Copyright (C) 2020, 2021, 2022  New Media Works
     info@newmediaworks.com
     703 2nd Street #465
     Santa Rosa, CA 95404
@@ -27,26 +27,26 @@ along with nmw-oss-website.  If not, see <https://www.gnu.org/licenses/>.
                       http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
   version="3.1"
   metadata-complete="false">
-	<!-- Set JSP compiler Java version -->
-	<servlet>
-		<servlet-name>jsp</servlet-name>
-		<servlet-class>org.apache.jasper.servlet.JspServlet</servlet-class>
-		<init-param>
-			<param-name>fork</param-name>
-			<param-value>false</param-value>
-		</init-param>
-		<init-param>
-			<param-name>xpoweredBy</param-name>
-			<param-value>false</param-value>
-		</init-param>
-		<init-param>
-			<param-name>compilerSourceVM</param-name>
-			<param-value>@{maven.compiler.source}</param-value>
-		</init-param>
-		<init-param>
-			<param-name>compilerTargetVM</param-name>
-			<param-value>@{maven.compiler.target}</param-value>
-		</init-param>
-		<load-on-startup>3</load-on-startup>
-	</servlet>
+  <!-- Set JSP compiler Java version -->
+  <servlet>
+    <servlet-name>jsp</servlet-name>
+    <servlet-class>org.apache.jasper.servlet.JspServlet</servlet-class>
+    <init-param>
+      <param-name>fork</param-name>
+      <param-value>false</param-value>
+    </init-param>
+    <init-param>
+      <param-name>xpoweredBy</param-name>
+      <param-value>false</param-value>
+    </init-param>
+    <init-param>
+      <param-name>compilerSourceVM</param-name>
+      <param-value>@{maven.compiler.source}</param-value>
+    </init-param>
+    <init-param>
+      <param-name>compilerTargetVM</param-name>
+      <param-value>@{maven.compiler.target}</param-value>
+    </init-param>
+    <load-on-startup>3</load-on-startup>
+  </servlet>
 </web-app>
