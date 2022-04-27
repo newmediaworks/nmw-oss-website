@@ -30,4 +30,4 @@ module com.newmediaworks.oss.website {
   requires com.semanticcms.core.all; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-all</artifactId>
   requires com.semanticcms.news.all; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-news-all</artifactId>
   requires com.semanticcms.section.all; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-all</artifactId>
-}
+} // TODO: Avoiding rewrite-maven-plugin-4.22.2 truncation
