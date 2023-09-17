@@ -411,7 +411,7 @@ along with nmw-oss-website.  If not, see <https://www.gnu.org/licenses/>.
         <groupId>com.newmediaworks</groupId><artifactId>nmw-oss-book</artifactId><version>1.9.0-POST-SNAPSHOT</version>
       </dependency>
       <dependency>
-        <groupId>com.newmediaworks</groupId><artifactId>nmw-oss-parent-book</artifactId><version>1.20.1-SNAPSHOT</version>
+        <groupId>com.newmediaworks</groupId><artifactId>nmw-oss-parent-book</artifactId><version>1.20.1-POST-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>com.newmediaworks</groupId><artifactId>nmw-payment-taglib-book</artifactId><version>2.1.1-POST-SNAPSHOT</version>
