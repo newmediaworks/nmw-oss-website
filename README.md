@@ -4,7 +4,7 @@
 [![management: production](https://oss.newmediaworks.com/ao-badges/management-production.svg)](https://aoindustries.com/life-cycle#management-production)
 [![packaging: active](https://oss.newmediaworks.com/ao-badges/packaging-active.svg)](https://aoindustries.com/life-cycle#packaging-active)  
 [![java ee: &gt;= 7](https://oss.newmediaworks.com/ao-badges/javaee-7.svg)](https://docs.oracle.com/javaee/7/)
-[![semantic versioning: 2.0.0](https://oss.newmediaworks.com/ao-badges/semver-2.0.0.svg)](http://semver.org/spec/v2.0.0.html)
+[![semantic versioning: 2.0.0](https://oss.newmediaworks.com/ao-badges/semver-2.0.0.svg)](https://semver.org/spec/v2.0.0.html)
 [![license: LGPL v3](https://oss.newmediaworks.com/ao-badges/license-lgpl-3.0.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
 [![Build](https://github.com/newmediaworks/nmw-oss-website/workflows/Build/badge.svg?branch=master)](https://github.com/newmediaworks/nmw-oss-website/actions?query=workflow%3ABuild)
