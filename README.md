@@ -7,13 +7,13 @@
 [![semantic versioning: 2.0.0](https://oss.newmediaworks.com/ao-badges/semver-2.0.0.svg)](https://semver.org/spec/v2.0.0.html)
 [![license: LGPL v3](https://oss.newmediaworks.com/ao-badges/license-lgpl-3.0.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
-[![Build](https://github.com/newmediaworks/nmw-oss-website/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/newmediaworks/nmw-oss-website/actions?query=workflow%3ABuild)
+[![Build](https://github.com/newmediaworks/nmw-oss-website/actions/workflows/build.yml/badge.svg?branch=javaee)](https://github.com/newmediaworks/nmw-oss-website/actions?query=workflow%3ABuild)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.newmediaworks/nmw-oss-website/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.newmediaworks/nmw-oss-website)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.newmediaworks%3Anmw-oss-website&metric=alert_status)](https://sonarcloud.io/dashboard?branch=master&id=com.newmediaworks%3Anmw-oss-website)
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.newmediaworks%3Anmw-oss-website&metric=ncloc)](https://sonarcloud.io/component_measures?branch=master&id=com.newmediaworks%3Anmw-oss-website&metric=ncloc)  
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.newmediaworks%3Anmw-oss-website&metric=reliability_rating)](https://sonarcloud.io/component_measures?branch=master&id=com.newmediaworks%3Anmw-oss-website&metric=Reliability)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.newmediaworks%3Anmw-oss-website&metric=security_rating)](https://sonarcloud.io/component_measures?branch=master&id=com.newmediaworks%3Anmw-oss-website&metric=Security)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.newmediaworks%3Anmw-oss-website&metric=sqale_rating)](https://sonarcloud.io/component_measures?branch=master&id=com.newmediaworks%3Anmw-oss-website&metric=Maintainability)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?branch=javaee&project=com.newmediaworks%3Anmw-oss-website&metric=alert_status)](https://sonarcloud.io/dashboard?branch=javaee&id=com.newmediaworks%3Anmw-oss-website)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?branch=javaee&project=com.newmediaworks%3Anmw-oss-website&metric=ncloc)](https://sonarcloud.io/component_measures?branch=javaee&id=com.newmediaworks%3Anmw-oss-website&metric=ncloc)  
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?branch=javaee&project=com.newmediaworks%3Anmw-oss-website&metric=reliability_rating)](https://sonarcloud.io/component_measures?branch=javaee&id=com.newmediaworks%3Anmw-oss-website&metric=Reliability)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?branch=javaee&project=com.newmediaworks%3Anmw-oss-website&metric=security_rating)](https://sonarcloud.io/component_measures?branch=javaee&id=com.newmediaworks%3Anmw-oss-website&metric=Security)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?branch=javaee&project=com.newmediaworks%3Anmw-oss-website&metric=sqale_rating)](https://sonarcloud.io/component_measures?branch=javaee&id=com.newmediaworks%3Anmw-oss-website&metric=Maintainability)
 
 The [oss.newmediaworks.com](https://oss.newmediaworks.com/) website.
 
