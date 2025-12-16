@@ -38,25 +38,25 @@ def upstreamProjects = [
 
   // "publish" profile
   // Dependencies for javadocs
-  'email-taglib', // <groupId>com.newmediaworks</groupId><artifactId>nmw-email-taglib</artifactId><classifier>javadoc</classifier>
+  'email-taglib-javaee', // <groupId>com.newmediaworks</groupId><artifactId>nmw-email-taglib</artifactId><classifier>javadoc</classifier>
   // No apidocs: <groupId>com.newmediaworks</groupId><artifactId>nmw-javadoc-resources</artifactId><classifier>javadoc</classifier>
   // No apidocs: <groupId>com.newmediaworks</groupId><artifactId>nmw-oss</artifactId><classifier>javadoc</classifier>
   // No apidocs: <groupId>com.newmediaworks</groupId><artifactId>nmw-oss-parent</artifactId><classifier>javadoc</classifier>
-  'payment-taglib', // <groupId>com.newmediaworks</groupId><artifactId>nmw-payment-taglib</artifactId><classifier>javadoc</classifier>
+  'payment-taglib-javaee', // <groupId>com.newmediaworks</groupId><artifactId>nmw-payment-taglib</artifactId><classifier>javadoc</classifier>
 
   // Direct
-  'email-taglib-book', // <groupId>com.newmediaworks</groupId><artifactId>nmw-email-taglib-book</artifactId>
+  'email-taglib-book-javaee', // <groupId>com.newmediaworks</groupId><artifactId>nmw-email-taglib-book</artifactId>
   'javadoc-resources-book', // <groupId>com.newmediaworks</groupId><artifactId>nmw-javadoc-resources-book</artifactId>
   'book', // <groupId>com.newmediaworks</groupId><artifactId>nmw-oss-book</artifactId>
   'parent-book', // <groupId>com.newmediaworks</groupId><artifactId>nmw-oss-parent-book</artifactId>
-  'payment-taglib-book', // <groupId>com.newmediaworks</groupId><artifactId>nmw-payment-taglib-book</artifactId>
+  'payment-taglib-book-javaee', // <groupId>com.newmediaworks</groupId><artifactId>nmw-payment-taglib-book</artifactId>
   '../../ao/semanticcms-1.x/core/all', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-all</artifactId>
   '../../ao/semanticcms-1.x/news/all', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-news-all</artifactId>
   '../../ao/semanticcms-1.x/section/all', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-all</artifactId>
 
   // Runtime Direct
   '../../ao/oss/mime-mappings', // <groupId>com.aoapps</groupId><artifactId>ao-mime-mappings</artifactId>
-  '../../ao/oss/servlet-filter', // <groupId>com.aoapps</groupId><artifactId>ao-servlet-filter</artifactId>
+  '../../ao/oss/servlet-filter-javaee', // <groupId>com.aoapps</groupId><artifactId>ao-servlet-filter</artifactId>
   '../../ao/semanticcms-1.x/google-analytics', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-google-analytics</artifactId>
   '../../ao/semanticcms-1.x/theme-documentation', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation</artifactId>
 
