@@ -55,7 +55,7 @@ def upstreamProjects = [
   '../../ao/semanticcms-1.x/section/all', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-all</artifactId>
 
   // Runtime Direct
-  '../../ao/oss/mime-mappings', // <groupId>com.aoapps</groupId><artifactId>ao-mime-mappings</artifactId>
+  '../../ao/oss/mime-mappings-javaee', // <groupId>com.aoapps</groupId><artifactId>ao-mime-mappings</artifactId>
   '../../ao/oss/servlet-filter-javaee', // <groupId>com.aoapps</groupId><artifactId>ao-servlet-filter</artifactId>
   '../../ao/semanticcms-1.x/google-analytics', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-google-analytics</artifactId>
   '../../ao/semanticcms-1.x/theme-documentation', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation</artifactId>
