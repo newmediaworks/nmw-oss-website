@@ -31,10 +31,10 @@ def upstreamProjects = [
 
   // "development" profile
   // Runtime Direct
-  '../../ao/semanticcms-1.x/openfile/all', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-all</artifactId>
-  '../../ao/semanticcms-1.x/view-all', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-view-all</artifactId>
-  '../../ao/semanticcms-1.x/view-tree', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-view-tree</artifactId>
-  '../../ao/semanticcms-1.x/view-what-links-here', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-view-what-links-here</artifactId>
+  '../../ao/semanticcms-2.x/openfile/all', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-all</artifactId>
+  '../../ao/semanticcms-2.x/view-all', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-view-all</artifactId>
+  '../../ao/semanticcms-2.x/view-tree', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-view-tree</artifactId>
+  '../../ao/semanticcms-2.x/view-what-links-here', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-view-what-links-here</artifactId>
 
   // "publish" profile
   // Dependencies for javadocs
@@ -50,15 +50,15 @@ def upstreamProjects = [
   'book', // <groupId>com.newmediaworks</groupId><artifactId>nmw-oss-book</artifactId>
   'parent-book', // <groupId>com.newmediaworks</groupId><artifactId>nmw-oss-parent-book</artifactId>
   'payment-taglib-book', // <groupId>com.newmediaworks</groupId><artifactId>nmw-payment-taglib-book</artifactId>
-  '../../ao/semanticcms-1.x/core/all', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-all</artifactId>
-  '../../ao/semanticcms-1.x/news/all', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-news-all</artifactId>
-  '../../ao/semanticcms-1.x/section/all', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-all</artifactId>
+  '../../ao/semanticcms-2.x/core/all', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-all</artifactId>
+  '../../ao/semanticcms-2.x/news/all', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-news-all</artifactId>
+  '../../ao/semanticcms-2.x/section/all', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-all</artifactId>
 
   // Runtime Direct
   '../../ao/oss/mime-mappings', // <groupId>com.aoapps</groupId><artifactId>ao-mime-mappings</artifactId>
   '../../ao/oss/servlet-filter', // <groupId>com.aoapps</groupId><artifactId>ao-servlet-filter</artifactId>
-  '../../ao/semanticcms-1.x/google-analytics', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-google-analytics</artifactId>
-  '../../ao/semanticcms-1.x/theme-documentation', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation</artifactId>
+  '../../ao/semanticcms-2.x/google-analytics', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-google-analytics</artifactId>
+  '../../ao/semanticcms-2.x/theme-documentation', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation</artifactId>
 
   // BOM
   '../../ao/oss/javaee-web-api-bom', // <groupId>com.aoapps</groupId><artifactId>javaee-web-api-bom</artifactId>
