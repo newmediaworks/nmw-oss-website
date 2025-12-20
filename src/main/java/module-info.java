@@ -1,6 +1,6 @@
 /*
  * nmw-oss-website - The oss.newmediaworks.com website.
- * Copyright (C) 2021, 2022  New Media Works
+ * Copyright (C) 2021, 2022, 2025  New Media Works
  *     info@newmediaworks.com
  *     703 2nd Street #465
  *     Santa Rosa, CA 95404
@@ -23,9 +23,9 @@
 module com.newmediaworks.oss.website {
   // Direct
   requires com.newmediaworks.taglib.email.book; // <groupId>com.newmediaworks</groupId><artifactId>nmw-email-taglib-book</artifactId>
-  requires com.newmediaworks.javadoc.resources.book; // <groupId>com.newmediaworks</groupId><artifactId>nmw-javadoc-resources-book</artifactId>
-  requires com.newmediaworks.oss.book; // <groupId>com.newmediaworks</groupId><artifactId>nmw-oss-book</artifactId>
-  requires com.newmediaworks.oss.parent.book; // <groupId>com.newmediaworks</groupId><artifactId>nmw-oss-parent-book</artifactId>
+  requires com.newmediaworks.javadoc.resources.book.javaee; // <groupId>com.newmediaworks</groupId><artifactId>nmw-javadoc-resources-book-javaee</artifactId>
+  requires com.newmediaworks.oss.book.javaee; // <groupId>com.newmediaworks</groupId><artifactId>nmw-oss-book-javaee</artifactId>
+  requires com.newmediaworks.oss.parent.book.javaee; // <groupId>com.newmediaworks</groupId><artifactId>nmw-oss-parent-book-javaee</artifactId>
   requires com.newmediaworks.taglib.payment.book; // <groupId>com.newmediaworks</groupId><artifactId>nmw-payment-taglib-book</artifactId>
   requires com.semanticcms.core.all; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-all</artifactId>
   requires com.semanticcms.news.all; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-news-all</artifactId>

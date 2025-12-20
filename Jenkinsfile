@@ -46,9 +46,9 @@ def upstreamProjects = [
 
   // Direct
   'email-taglib-book-javaee', // <groupId>com.newmediaworks</groupId><artifactId>nmw-email-taglib-book</artifactId>
-  'javadoc-resources-book', // <groupId>com.newmediaworks</groupId><artifactId>nmw-javadoc-resources-book</artifactId>
-  'book', // <groupId>com.newmediaworks</groupId><artifactId>nmw-oss-book</artifactId>
-  'parent-book', // <groupId>com.newmediaworks</groupId><artifactId>nmw-oss-parent-book</artifactId>
+  'javadoc-resources-book-javaee', // <groupId>com.newmediaworks</groupId><artifactId>nmw-javadoc-resources-book-javaee</artifactId>
+  'book-javaee', // <groupId>com.newmediaworks</groupId><artifactId>nmw-oss-book-javaee</artifactId>
+  'parent-book-javaee', // <groupId>com.newmediaworks</groupId><artifactId>nmw-oss-parent-book-javaee</artifactId>
   'payment-taglib-book-javaee', // <groupId>com.newmediaworks</groupId><artifactId>nmw-payment-taglib-book</artifactId>
   '../../ao/semanticcms-1.x/core/all', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-all</artifactId>
   '../../ao/semanticcms-1.x/news/all', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-news-all</artifactId>
