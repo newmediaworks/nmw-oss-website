@@ -36,6 +36,9 @@ along with nmw-oss-website.  If not, see <https://www.gnu.org/licenses/>.
     <!-- Must be set to ${git.commit.time} for snapshots or ISO 8601 timestamp for releases. -->
     <project.build.outputTimestamp>${git.commit.time}</project.build.outputTimestamp>
     <module.name>com.newmediaworks.oss.website</module.name>
+    <!-- Java 17 -->
+    <javase.version>17</javase.version>
+    <javase.release>17</javase.release>
 
     <!-- Google Analytics 4 (GA4) Measurement ID for the javadocs -->
     <google.analytics.trackingId>UA-177004-2<!-- TODO: G-********** Measurement ID --></google.analytics.trackingId>
