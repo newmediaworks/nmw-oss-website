@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 /*
  * nmw-oss-website - The oss.newmediaworks.com website.
- * Copyright (C) 2021, 2022, 2023, 2024, 2025  New Media Works
+ * Copyright (C) 2021, 2022, 2023, 2024, 2025, 2026  New Media Works
  *     info@newmediaworks.com
  *     703 2nd Street #465
  *     Santa Rosa, CA 95404
@@ -61,7 +61,7 @@ def upstreamProjects = [
   '../../ao/semanticcms-2.x/theme-documentation', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation</artifactId>
 
   // BOM
-  '../../ao/oss/javaee-web-api-bom', // <groupId>com.aoapps</groupId><artifactId>javaee-web-api-bom</artifactId>
+  '../../ao/oss/jakartaee-web-profile-bom', // <groupId>com.aoapps</groupId><artifactId>jakartaee-web-profile-bom</artifactId>
 ]
 
 // Java 17
