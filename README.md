@@ -1,8 +1,8 @@
 # [<img src="nmw-logo.png" alt="NMW Logo" width="40" height="40">](https://github.com/newmediaworks) [NMW OSS](https://github.com/newmediaworks/nmw-oss) / [Website](https://github.com/newmediaworks/nmw-oss-website)
 
-[![project: current stable](https://oss.newmediaworks.com/ao-badges/project-current-stable.svg)](https://aoindustries.com/life-cycle#project-current-stable)
-[![management: production](https://oss.newmediaworks.com/ao-badges/management-production.svg)](https://aoindustries.com/life-cycle#management-production)
-[![packaging: active](https://oss.newmediaworks.com/ao-badges/packaging-active.svg)](https://aoindustries.com/life-cycle#packaging-active)  
+[![project: end of life](https://oss.newmediaworks.com/ao-badges/project-end-of-life.svg)](https://aoindustries.com/life-cycle#project-end-of-life)
+[![management: cleanup](https://oss.newmediaworks.com/ao-badges/management-cleanup.svg)](https://aoindustries.com/life-cycle#management-cleanup)
+[![packaging: unsupported](https://oss.newmediaworks.com/ao-badges/packaging-unsupported.svg)](https://aoindustries.com/life-cycle#packaging-unsupported)  
 [![java ee: &gt;= 7](https://oss.newmediaworks.com/ao-badges/javaee-7.svg)](https://docs.oracle.com/javaee/7/)
 [![semantic versioning: 2.0.0](https://oss.newmediaworks.com/ao-badges/semver-2.0.0.svg)](https://semver.org/spec/v2.0.0.html)
 [![license: LGPL v3](https://oss.newmediaworks.com/ao-badges/license-lgpl-3.0.svg)](https://www.gnu.org/licenses/lgpl-3.0)
@@ -16,6 +16,10 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?branch=javaee&project=com.newmediaworks%3Anmw-oss-website&metric=sqale_rating)](https://sonarcloud.io/component_measures?branch=javaee&id=com.newmediaworks%3Anmw-oss-website&metric=Maintainability)
 
 The [oss.newmediaworks.com](https://oss.newmediaworks.com/) website.
+
+## End of Life
+This branch is end-of-life and will no longer receive any updates or releases.
+Please switch to a newer, maintained branch.
 
 ## Project Links
 * [Project Home](https://oss.newmediaworks.com/)
