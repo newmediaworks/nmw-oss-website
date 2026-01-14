@@ -141,10 +141,6 @@ along with nmw-oss-website.  If not, see <https://www.gnu.org/licenses/>.
             <!-- Books -->
             <dependency>com.newmediaworks:*-book:jar</dependency>
           </ignoredUnusedDeclaredDependencies>
-          <ignoredDependencies>
-            <!-- No "module-info.java" in some release builds -->
-            <dependency>com.aoapps:ao-lang</dependency>
-          </ignoredDependencies>
         </configuration>
       </plugin>
       <plugin>
